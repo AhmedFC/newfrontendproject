@@ -1,0 +1,198 @@
+body {
+    background-color: #808080;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topnav1 {
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+}
+
+.topnav1 a{
+    text-align: center;
+    padding: 13px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav1 a:hover{
+    color: black;
+    background-color: white;
+}
+
+.top-cloud {
+    width: 450px;
+    height: 230px;
+}
+
+.top-container {
+    background-color : #51D1F2;
+    width: 450px;
+    height: 900px;
+    float: left;
+    margin-bottom: 0;
+}
+
+.top-container h1{
+    text-align: center;
+    font-size: 55px;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.top-container .second-heading {
+    margin: 0;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.top-container h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #5dade2;
+    text-align: center;
+}
+
+
+.top-container .bio {
+    text-align: justify;
+    letter-spacing: 2px;
+ 
+}
+
+.top-container .bio1 {
+    letter-spacing: 1px;
+
+}
+
+.top-container .bio , .top-container .bio1 {
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 30px;
+}
+
+.skill-row1 h3 , .skill-row2 h3 {
+    color:darkorchid;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skill-row1 .bio2 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-bottom: 0;
+}
+
+.skill-row2 .bio3 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-bottom: 0;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+img {
+    background-color: #e4f9f5;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.skills h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+.middle-container {
+   
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.skill-row1 , .skill-row2 {
+    background-color: aliceblue;
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+    border: 2px solid #51D1F2;
+    text-align: center;
+    margin-left: 30px;
+    
+}
+
+.skill-row1 {
+    float: left;
+    padding: 40px;
+}
+
+.skill-row2 {
+    
+    float: right;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+hr {
+    display: inline-block;
+    border: 6px dotted #51D1F2;
+    border-bottom: none;
+    width: 4%;
+    margin-top: 60px;
+    
+    
+
+}
+
+.contact-me {
+    margin: 0;
+    padding: 0;
+    /*display: inline-block; */
+}
+
+.contact-me h2 , .contact-section  {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-section  {
+  font-weight: bold;
+  font-size: 15px;  
+}
+
+.contact {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+font-size: 15px;
+}
+.btn {
+    background-color: #3498db;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 180px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+.btn:hover {
+    color: #3498db;
+    background-color: #FFF;
+    text-decoration: none;
+}
